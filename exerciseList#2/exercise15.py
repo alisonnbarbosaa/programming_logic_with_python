@@ -6,9 +6,9 @@
 # • calcule os descontos e o salário líquido, conforme a tabela à direita.
 
 ganhoHora = float(input("Informe quanto ganha por hora: "))
-horasTrabalhadasMês = float(input("Informe quantas horas trabalho no mês: "))
+horasTrabalhadasMes = float(input("Informe quantas horas trabalhou no mês: "))
 
-salarioBruto = ganhoHora * horasTrabalhadasMês
+salarioBruto = ganhoHora * horasTrabalhadasMes
 
 print("+ Salário Bruto : R$", salarioBruto)
 print("- IR (11%) : R$", salarioBruto * 0.11)
